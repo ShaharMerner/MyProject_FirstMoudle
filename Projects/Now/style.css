@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.title {
+    color: white;
+    font: normal normal normal 160px/231px Satisfy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    opacity: 1;
+    font-size: 100px;
+}
+
+.subtitle {
+    font: normal normal normal 32px/38px Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 30px;
+}
+
+.para {
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+.posted {
+    margin-top: 50px;
+    direction: rtl;
+    display: flex;
+}
+
+label {
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.form-group {
+    display: block;
+    margin-left: 30px;
+}
+
+#name {
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    width: 418px;
+    height: 50px;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+    margin-left: px;
+    display: block;
+
+}
+
+#email {
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    width: 418px;
+    height: 50px;
+    display: block;
+}
+#sumbit{
+    width: 206px;
+        height: 50px;
+        margin-top: 20px;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border: 0;
+        text-align: center;
+        font: normal normal normal 16px/20px Varela Round;
+        letter-spacing: 0px;
+        color: #1c1c1c;
+        opacity: 1;
+}
+
+
+
+@media (max-width: 780px) {
+    .container{
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        position: fixed;
+    }
+
+.title{
+    font: normal normal normal 39px/86px Satisfy;
+    font-weight: 200;  
+}
+.subtitle {
+    font: normal normal normal 22px/38px Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 30px;
+}
+.posted {
+    margin-top: 50px;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+    margin: 10px;
+}
+#name{
+    width: 380px;
+    margin: auto;
+    
+}
+#email{
+    width: 380px;
+    margin: auto;
+}
+#sumbit{
+    width: 380px;
+    margin: auto;
+    margin-top: 15px;
+}
+}
